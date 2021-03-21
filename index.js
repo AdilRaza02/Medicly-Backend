@@ -1,17 +1,25 @@
 const express = require("express");
 const upload = require("./helpers/");
 const app = express();
-var fs = require("fs");
+const fs = require("fs");
+var response = require("./functions/");
 
-app.post("/analyse", upload.single("source"), function (req, res, next) {
-  let response = require("./functions/");
+app.post("/analyse", upload.single("source"), function (req, res) {
   response
-    .then((data) => {
-      fs.unlinkSync("./uploads/temp.jpg");
-      res.status(200);
-      res.send(data);
+    .f1()
+    .then((data1) => {
+      response
+        .f2(data1)
+        .then((results) => {
+          fs.unlinkSync("./uploads/temp.jpg");
+          res.status(200);
+          res.send(results);
+        })
+        .catch((err) => {
+          res.status(500);
+          res.send(err);
+        });
     })
-
     .catch((err) => {
       res.status(500);
       res.send(err);
