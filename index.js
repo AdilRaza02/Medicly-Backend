@@ -5,7 +5,6 @@ var fs = require("fs");
 
 app.post("/analyse", upload.single("source"), function (req, res, next) {
   let response = require("./functions/");
-  console.log(response);
   response
     .then((data) => {
       fs.unlinkSync("./uploads/temp.jpg");

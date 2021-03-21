@@ -43,8 +43,6 @@ function startJob() {
     };
 
     request(params, function (error, res, body) {
-      console.log(imgUrl);
-
       console.error(Date.now() + " - error:", error);
       if (error) {
         reject("Something went wrong");
