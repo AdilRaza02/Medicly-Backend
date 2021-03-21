@@ -1,0 +1,134 @@
+[
+  {
+    "id": 13,
+    "name": "Absolute Metamyelocytes"
+  },
+  {
+    "id": 14,
+    "name": "Absolute Myelocytes"
+  },
+  {
+    "id": 15,
+    "name": "Absolute Promyelocytes"
+  },
+  {
+    "id": 20,
+    "name": "Absolute Blasts"
+  },
+  {
+    "id": 21,
+    "name": "Absolute Nucleated Rbc"
+  },
+  {
+    "id": 23,
+    "name": "Band Neutrophils"
+  },
+  {
+    "id": 24,
+    "name": "Metamyelocytes"
+  },
+  {
+    "id": 25,
+    "name": "Myelocytes"
+  },
+  {
+    "id": 26,
+    "name": "Promyelocytes"
+  },
+  {
+    "id": 27,
+    "name": "Lymphocytes"
+  },
+  {
+    "id": 29,
+    "name": "Monocytes"
+  },
+  {
+    "id": 30,
+    "name": "Eosinophils"
+  },
+  {
+    "id": 31,
+    "name": "Basophils"
+  },
+  {
+    "id": 32,
+    "name": "Blasts"
+  },
+  {
+    "id": 33,
+    "name": "Nucleated Rbc"
+  },
+  {
+    "id": 11,
+    "name": "Absolute Neutrophils"
+  },
+  {
+    "id": 12,
+    "name": "Absolute Band Neitrophils"
+  },
+  {
+    "id": 16,
+    "name": "Absolute Lymphocytes"
+  },
+  {
+    "id": 17,
+    "name": "Absolute Monocytes"
+  },
+  {
+    "id": 18,
+    "name": "Absolute Eosinophils"
+  },
+  {
+    "id": 19,
+    "name": "Absolute Basophils"
+  },
+  {
+    "id": 22,
+    "name": "Neutrophils"
+  },
+  {
+    "id": 28,
+    "name": "Reactive Lymphocytes"
+  },
+  {
+    "id": 1,
+    "name": "Leukocyten"
+  },
+  {
+    "id": 2,
+    "name": "Erythrocyten"
+  },
+  {
+    "id": 3,
+    "name": "Hemoglobin"
+  },
+  {
+    "id": 4,
+    "name": "Hematocrit"
+  },
+  {
+    "id": 5,
+    "name": "MCV"
+  },
+  {
+    "id": 6,
+    "name": "MCH"
+  },
+  {
+    "id": 7,
+    "name": "MCHC"
+  },
+  {
+    "id": 8,
+    "name": "RDW"
+  },
+  {
+    "id": 9,
+    "name": "Platelet Count"
+  },
+  {
+    "id": 10,
+    "name": "MPV"
+  }
+]
