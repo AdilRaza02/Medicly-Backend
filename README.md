@@ -21,7 +21,6 @@ Formvalidator API Key
 
     Headers:
     Content-Type:  "application/json"
-    Ocp-Apim-Subscription-Key: SUBSCRIPTION_KEY
 
     Body:
     {"source" : image_url}
