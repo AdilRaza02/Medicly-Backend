@@ -1,4 +1,3 @@
-const fs = require("file-system");
 var request = require("request");
 require("dotenv").config();
 
@@ -47,12 +46,13 @@ function startJob() {
       if (error) {
         reject("Something went wrong");
       } else {
-        getDataFromJob(res.headers["operation-location"]).then((data) => {
-          resolve(data);
-        });
+        resolve(res.headers["operation-location"]);
       }
     });
   });
 }
 
-module.exports = startJob();
+module.exports = {
+  f1: startJob,
+  f2: getDataFromJob,
+};
